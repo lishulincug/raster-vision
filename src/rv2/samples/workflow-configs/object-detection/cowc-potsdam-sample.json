@@ -1,33 +1,34 @@
 {
     "train_projects": [
         {
+            "id": "2-10",
             "raster_source": {
                 "geotiff_files": {
                     "uris": [
-                        "{raw}/isprs-potsdam/4_Ortho_RGBIR/top_potsdam_2_10_RGBIR.tif"
+                        "{rv_root}/processed-data/cowc-potsdam-sample/2-10.tif"
                     ]
                 }
             },
             "ground_truth_label_source": {
                 "geojson_file": {
-                    "uri": "{rv_root}/processed-data/cowc-potsdam/labels/train/top_potsdam_2_10_RGBIR.json"
+                    "uri": "{rv_root}/processed-data/cowc-potsdam-sample/2-10.json"
                 }
             }
         }
     ],
     "test_projects": [
         {
-            "id": "2_13",
+            "id": "2-13",
             "raster_source": {
                 "geotiff_files": {
                     "uris": [
-                        "{raw}/isprs-potsdam/4_Ortho_RGBIR/top_potsdam_2_13_RGBIR.tif"
+                        "{rv_root}/processed-data/cowc-potsdam-sample/2-13.tif"
                     ]
                 }
             },
             "ground_truth_label_source": {
                 "geojson_file": {
-                    "uri": "{rv_root}/processed-data/cowc-potsdam/labels/test/top_potsdam_2_13_RGBIR.json"
+                    "uri": "{rv_root}/processed-data/cowc-potsdam-sample/2-13.json"
                 }
             }
         }
